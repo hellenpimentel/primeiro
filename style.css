@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #70c6c7;
+    background-color: #caa4a4;
 }
 
 .resume-contents {
@@ -21,13 +21,13 @@ body {
 .left-section {
     grid-column: span 2;
     height: 100%;
-    background-color: #00204A;
+    background-color: #37163d;
 }
 
 .right-section {
     grid-column: span 5;
     height: 100%;
-    background-color: #4B6982;
+    background-color: #da726b;
     border-radius: 0px 60px 0px 0px;
 }
 
@@ -37,17 +37,17 @@ body {
 
 .profile {
     width: 100%;
-    border-bottom: 2px solid #1B2631;
+    border-bottom: 2px solid #f56403;
 }
 
 .profile .profile-image {
     width: 100%;
     border-radius: 50%;
-    border: 8px solid #1B2631;
+    border: 8px solid #fffcfc;
 }
 
 .name {
-    color: #D6DBDF;
+    color: #f8f8f8;
     font-size: 30px;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -68,7 +68,7 @@ body {
 
 /* .contact-info { border-bottom: 2px solid #1B2631; } */
 .left-title {
-    color: #c73127;
+    color: #FDB44B;
     font-size: 20px;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -76,6 +76,7 @@ body {
     display: flex;
     align-items: center;
     padding-top: 3rem;
+    padding-left: 10px;
 }
 
 .contact-info ul {
@@ -87,29 +88,30 @@ body {
     padding: .4rem 0;
     display: flex;
     align-items: center;
-    color: #d6dbdfaf;
+    color: #ffffff;
     letter-spacing: 1px;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .contact-info ul li i,
 .references ul li i {
     padding-right: 1rem;
     font-size: 18px;
-    color: #2E86C1;
+    color: #c12e90;
+    padding-left: 15px;
 }
 
 .skills ul {
     padding-top: 1.5rem;
 }
 .skills ul li p {
-    padding: .4rem 0;
-    color: #d6dbdfaf;
+    padding: .4rem 10px;
+    color: #f0f3f5;
     font-size: 18px;
     letter-spacing: 1px;
     display: flex;
     align-items: center;
-    text-transform: uppercase;
+    text-transform: lowercase;
 }
 
 .referance-name {
@@ -135,7 +137,7 @@ body {
 }
 
 .right-title {
-    color: #08093d;
+    color: #37163d;
     font-size: 40px;
     letter-spacing: 2px;
     text-transform: uppercase;
